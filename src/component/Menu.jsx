@@ -19,7 +19,7 @@ widgets
 		  </span><p>Common</p></Link>
 		  <Link className='box' to="/product"><span className="material-symbols-outlined">
 contact_support
-		  </span><p>Product</p></Link>
+		  </span><p>Product Information</p></Link>
 	      </div>
             </div>
   )
