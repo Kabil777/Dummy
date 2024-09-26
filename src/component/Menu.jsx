@@ -14,7 +14,7 @@ function Menu() {
 			<div className="container">
 				<Link className="box" to="/network">
 					<span className="material-symbols-outlined">wifi</span>
-					<p>Network</p>
+					<p>Network Setting</p>
 				</Link>
 				<Link className="box" to="/time">
 					<span className="material-symbols-outlined">manage_history</span>
