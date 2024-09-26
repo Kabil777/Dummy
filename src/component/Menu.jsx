@@ -9,7 +9,7 @@ function Menu() {
 		<div className='container'>  
 		  <Link className='box' to="/network"><span className="material-symbols-outlined">
 wifi
-		  </span><p>Network</p></Link>
+		  </span><p>Networking</p></Link>
 		  <Link className='box' to="/time"><span className="material-symbols-outlined">
 manage_history
 		  </span><p>Time</p></Link>
