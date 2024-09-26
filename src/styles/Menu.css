@@ -37,8 +37,8 @@
 }
 
 .box {
-	min-width: 350px;
-	min-height: 450px;
+	min-width: 20%;
+	min-height: 70%;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -60,8 +60,8 @@
 }
 
 .box:hover {
-	min-height: 500px;
-	min-width: 400px;
+	min-height: 90%;
+	min-width: 26%;
 	background-color: #5e6ef5;
 
 	span {

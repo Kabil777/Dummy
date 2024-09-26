@@ -1,0 +1,75 @@
+.main-content{
+  padding: 30px;
+  background-color: #131f51;
+  height: 100vh;
+}
+
+.time-settings{
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  /* font-family:'Open Sans', 'Helvetica Neue', sans-serif; */
+  margin: 30px 0 60px;
+  color: white;
+}
+
+.time-settings-list-items{
+  width: 55%;
+  color: white;
+}
+
+.time-settings-list-items ul{
+  list-style: none;
+}
+
+.time-settings-list-items ul .li-selected{
+  background-color: #6077f7;
+}
+
+.time-settings-list-items ul li .list-values{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+  height: 80px;
+}
+
+.time-settings-list-items ul .li-normal{
+  background-color: #202c5e;
+  border-bottom: 2px solid #131f51;
+  
+}
+
+.toggle-button {
+  position: relative;
+  background-color: #131f51;
+  border: 1px solid rgb(191, 192, 192);
+  border-radius: 15px;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button .thumb {
+  height: 28px;
+  width: 28px;
+  background-color: rgb(243, 247, 243);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: left 1s ease;
+}
+
+.toggle-button.toggled {
+  background-color: #bed462;
+}
+
+.toggle-button.toggled .thumb {
+  left: calc(100% - 28px);
+}
+
+
+
+
