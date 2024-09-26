@@ -1,0 +1,44 @@
+/* CSS for the storage information UI */
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 100vw;
+    height: 100vh;
+    
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .total-size h2 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .center-label {
+    font-size: 18px;
+    font-weight: bold;
+    fill: white;
+  }
+
+  .dflex{
+    display: flex; 
+    /* flex-direction: row; */
+    justify-content: start;
+    align-items: start;  
+
+ }
+
+
+ .maincont{
+  background: linear-gradient(to right, #313c68,#152153,#101c47);
+position: fixed;
+ }
+  
