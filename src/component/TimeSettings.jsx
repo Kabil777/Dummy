@@ -63,7 +63,7 @@ function TimeSettings() {
                 <li className={getItemClass(3)} 
                     onClick={() => handleItemClick(3)}>
                     <div className='list-values'>
-                      <div>24 Hours</div>
+                      <div>24 Hours(Checking for errors)</div>
                       <div><ToggleButton/></div>
                     </div>
                 </li>
